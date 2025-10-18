@@ -7,6 +7,7 @@ body {
   align-items: center;
   justify-content: space-between;
   row-gap: 1.25rem;
+  min-height: 100dvh;
   padding: 1.25rem 1rem;
   font-family: "Roboto Mono", monospace;
   background-color: #1a1a1a;
@@ -27,7 +28,7 @@ button {
   flex-grow: 1;
   max-width: 100%;
   overflow-x: auto;
-  font-size: clamp(2.375rem, 12vw, 9.375rem);
+  font-size: clamp(2rem, 12vw, 9.375rem);
   font-weight: 700;
   letter-spacing: 0.5rem;
   color: #e0e0e0;
