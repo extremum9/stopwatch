@@ -6,6 +6,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
+  row-gap: 1.25rem;
   padding: 1.25rem 1rem;
   font-family: "Roboto Mono", monospace;
   background-color: #1a1a1a;
@@ -24,7 +25,9 @@ button {
   display: flex;
   align-items: center;
   flex-grow: 1;
-  font-size: 9.375rem;
+  max-width: 100%;
+  overflow-x: auto;
+  font-size: clamp(2.375rem, 12vw, 9.375rem);
   font-weight: 700;
   letter-spacing: 0.5rem;
   color: #e0e0e0;
